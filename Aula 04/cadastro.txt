@@ -1,0 +1,16 @@
+Nome: a
+Idade: 1
+Curso: a
+N1: 1.0
+N2: 2.0
+N3: 3.0
+Media: 2.0
+
+Nome: f
+Idade: 3
+Curso: f
+N1: 1.0
+N2: 3.0
+N3: 5.0
+Media: 3.0
+
