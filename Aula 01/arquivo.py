@@ -17,9 +17,9 @@ def calculoExame(media):
 
 def main():
     nome = input("Digite o nome: ")
-    n1 = float(input("NOTA 1: "))
-    n2 = float(input("NOTA 2: "))
-    n3 = float(input("NOTA 3: "))
+    n1 = float(input("É A NOTA 1 QUE A GENTE QUER: "))
+    n2 = float(input("É A NOTA 2 QUE A GENTE QUER: "))
+    n3 = float(input("É A NOTA 3 QUE A GENTE QUER: "))
     media = calculoMedia(n1, n2, n3)
     print("Media: %.2f" % media)
     print("Aluno: ", nome, end=" ")
@@ -29,7 +29,7 @@ def main():
         if media >= 9:
             print("EIEIEI")
     elif media < 7 and media >= 5:
-        print("EXAME JOVENZINHO")
+        print("NAO VAI DAR NAO. FOI PRO EXAME JOVENZINHO")
         notafinal = calculoExame(media)
         print("Nota final com exame: %.2f" % notafinal, end = " ")
         if(notafinal > 5):
@@ -37,7 +37,7 @@ def main():
         else:
             print("REPROVADO")
     else:
-        print("RODOU JOVENZINHO")
+        print("RODOU. AJUDA O MALUCO TA DOENTE")
 
 if __name__ == '__main__':
     main()
